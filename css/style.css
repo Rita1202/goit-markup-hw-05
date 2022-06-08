@@ -207,26 +207,6 @@ button {
 .navigation-link {
   position: relative;
 }
-/* .navigation-link::after {
-  content: "";
-  display: block;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%);
-  position: absolute;
-  transition: width 500ms linear;
-  width: 20%;
-  height: 4px;
-
-  background-color: var(--accent-color);
-  opacity: 0;
-  border-radius: 2px;
-}
-
-.navigation-link:hover::after {
-  opacity: 1;
-  width: calc(100% - 1px);
-} */
 
 /* ================ /HEADER ================  */
 
@@ -261,8 +241,7 @@ button {
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:hover,
 .modal-btn:focus {
